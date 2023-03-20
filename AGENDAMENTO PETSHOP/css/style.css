@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav{
+ background-color: #0f5fc9;
+border-bottom: solid #0359ca;
+
+}
+.navbar-nav a{
+    color: white;
+    font-size: 18px;
+}
+.navbar-nav a:hover{
+    color: #FADA17;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.712);
+}
+.nav-item {
+    padding-left:5px ;
+    padding-right: 5px;
+    float: left;
+}
+.nav-item i{
+    padding-right: 5px;
+
+}
+
+.nav-new {
+    padding-right: 10px;
+}
+
+
+.btn-b{
+    background-color:#FADA17;
+    margin-right:  20px;
+    text-decoration: none;
+    padding: 5px;
+    color: #000000;
+    font-size: 17px;
+    border: 1px solid #f5f9ff48;
+    border-radius: 3px;	box-shadow: #f5f9ff48 1px 1px 1px 1px;
+    text-shadow: none;
+    cursor: pointer;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 12px 16px;
+    position: relative;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    
+    }
+    
+    .btn-b:hover{
+        color: rgb(255, 255, 255);
+        border: 1px solid white;
+        transition: 2ms;
+    }
+    .carrousel {
+        background-color: rgb(160, 160, 160);
+        border-top: 1px solid rgb(59, 59, 59);
+        border-bottom: 1px solid rgb(70, 70, 70);
+    }
+    
+    .carrousel:hover {
+        border-top: 1px solid rgb(104, 104, 104);
+        border-bottom: 1px solid rgb(104, 104, 104);
+        transition: 1s;
+    }
+.form-group {
+    padding: 4px;
+    
+}
+#serviços {
+   background-color: #0359ca;
+    color: black;
+    position: relative;
+    border-top: 1px solid #4b99ff;
+    
+}
+.img-card a{
+    cursor: pointer;
+}
+
+.display-4 {
+    background-color: #0359ca;
+    border-top: 1px solid #0f5fc9; 
+    border-bottom: 1px solid #0f5fc9; 
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 65px;
+}
+.card-body {
+    background-color: #3184f1;
+}
+.card-body p{
+    color: white;
+
+}
+.lead {
+  text-align: center;
+  
+
+}
+.img-card img{
+    margin-right: 12px;
+    border-radius: 12px; 
+    box-shadow: #f5f9ff48 1px 1px 1px 1px;
+    width: 280px;
+    margin-bottom: 85px;
+
+}
+.display-5 {
+    background-color: #0359ca;
+    border-top: 1px solid #0f5fc9; 
+    border-bottom: 1px solid #0f5fc9; 
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 40px;
+    
+}
+
+#pacotes {
+    background-color: #0359ca;
+     color: black;
+     position: relative;
+     border-top: 1px solid #8aaaff
+
+
+}
+
+
+
+
+
+
+
+
+
+    .none {
+        display: none;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+
+
+    @media screen and (max-width:675px) {
+        .img-card img{
+            margin-bottom: 17px;
+            width: 300px;
+           
+        } }
+    
+@media screen and (max-width:675px) {
+    .btn-b {
+        display: none;
+    } }
+
+    @media screen and (max-width:675px) {
+      .none {
+          display: block;
+      } }

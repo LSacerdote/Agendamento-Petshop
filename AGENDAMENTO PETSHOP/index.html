@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  
+  <title>Agende seu Banho e Tosa</title>
+</head>
+<body>
+<header>
+
+ <!--nav-bar-->
+ <nav class="navbar navbar-expand-sm  navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#serviços">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pacotes"></i> Pacotes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contatos">Contatos</a>
+        </li>
+        <li class="none">
+          <a class="nav-link" data-toggle="modal" data-target="#ExemploModalCentralizado"> Quero Agendar</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn-b"><a class="nav-link" data-toggle="modal" data-target="#ExemploModalCentralizado"> Quero Agendar</a></button>
+</div>
+</nav>
+</header>
+  <!--carrousel responsive-->
+  <section class="carrousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/carrousel1.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/CARROUSEL2.png" alt="Segundo Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+      aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Quero Agendar</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container registro">
+              <div class="row">
+            <div class="col-md-12">
+              <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+            </div>
+            <div class="row-registro-form">
+            
+              <div class="col-md-10">
+            
+                <form autocomplete="off">
+            
+                <div class="form-group">
+                  <input type="text" name="nome" id="nome" class="form-control"
+                   placeholder="&nbsp;Nome"
+                  value=""  required="" />
+            
+                  <div class="form-group">
+                    <input type="text" name="animal" id="animal" class="form-control" 
+                    placeholder="&nbsp;Nome do Animal"
+                    value=""  required="" />
+                  
+                  </div>
+            
+                  <div class="form-group">
+                    <input type="tel" name="telefone" id="telefone" class= "form-control" 
+                    placeholder="&nbsp;(DDD) + Telefone"
+                     value="" required="" />
+                     
+                  </div>
+            
+                  <div class="form-group">
+            
+                    <select class="form-control" id="service">
+            
+                      <option> Banho </option>
+            
+                      <option> Banho + Tosa Higienica </option>
+            
+                      <option> Banho + Tosa Completa </option>
+            
+                      <option> Banho + Tosa na Tesoura </option>
+            
+                    </select>
+            
+                    </div>
+            
+                    <div class="form-group">
+            
+                      <select class="form-control" id="porte">
+                        <option> Porte Mini (1kg - 4kg) </option>
+            
+                        <option> Porte Pequeno (4kg - 7kg) </option>
+            
+                        <option> Porte Médio (7kg - 15kg)</option>
+            
+                        <option> Porte Grande (15kg - 40kg)</option>
+            
+                        <option> Porte Gigante (40kg - 90kg)</option>
+            
+                      </select>
+            
+                      <div class="form-group" id="adicionais">
+                        <p2>Adicionais</p2> <br>
+                         <input type="checkbox" name="checkbox" id="desembolo" value="Desembolo" > Desembolo 
+                         <input type="checkbox" name="checkbox" id="corte" value="Corte de unhas" > Corte de unhas <br>
+                         <input type="checkbox" name="checkbox" id="hidratação" value="Hidratação" > Hidratação  
+                         <input type="checkbox" name="checkbox" id="tratamento" value="Tratamento Ant-Pulgas" > Tratamento Ant-Pulgas <br>
+                         <input type="checkbox" name="checkbox" id="tonalização" value="Tonalização" > Tonalização
+                         <input type="checkbox" name="checkbox" id="limpeza" value="Limpeza do rosto na tesoura" > Limpeza do rosto na tesoura <br>
+
+                      </div>
+                      <div class="form-group"> 
+                        <p2>Precisa de Taxi Dog?</p2>
+                        <input type="checkbox" name="checkbox"  > Sim
+                        <input type="checkbox" name="checkbox"  > Não
+                        <input type="text" name="name" id="taxidog" class="form-control" placeholder="&nbsp;Seu Endereço"
+                        value="" />
+
+                      </div>
+                </div>
+              </div>
+            </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+           <div class="form-group">
+            <input type="submit" name="Enviar" class="btn btn-primary"  onclick="gotowhatsapp()" value="submit"/>
+           </form>  
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="serviços">
+  <h1 class="display-4">Nossos Serviços</h1>
+
+  <div class="lead">
+ <div class="img-card">
+  <a data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="img/b+t-m.png" alt=""></a>
+  <a data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="img/b+t+t.png" alt=""></a>
+    <a data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="img/b+h.png" alt=""></a>
+      <a data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="img/b.png" alt=""></a>
+
+<article id="pacotes">
+  <h1 class="display-5">Pacotes</h1>
+<p2>Traga seu Pet semanalmente e pague menos</p2>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+
+<script>
+  function gotowhatsapp() {
+    var nome = document.getElementById("nome").value;
+   var animal = document.getElementById("animal").value;
+    var telefone = document.getElementById("telefone").value;
+    var service = document.getElementById("service").value;
+    var porte = document.getElementById("porte").value;
+    var desembolo = document.getElementById("desembolo").value;
+    var corte = document.getElementById("corte").value;
+    var hidratação = document.getElementById("hidratação").value;
+    var tratamento = document.getElementById("tratamento").value;
+    var tonalização = document.getElementById("tonalização").value;
+    var limpeza = document.getElementById("limpeza").value;
+    var taxidog = document.getElementById("taxidog").value;
+    var url = "https://wa.me/5511984379284?text=" 
+    
+      + "Nome: " + nome + "%0a" 
+      + "Nome do Animal: " + animal + "%0a"
+      + "Telefone: " + telefone + "%0a"
+      + "Serviço: " + service + "%0a"
+      + "Porte do Animal: " + porte + "%0a"
+      + "Adicionais: " + desembolo + corte + hidratação + tratamento + tonalização + limpeza  + "%0a"
+      + "Endereço: " + taxidog + "%0a"
+
+    window.open(url, '_blank').focus();
+
+  }
+  
+</script>
+
+<script src="https://kit.fontawesome.com/887c0f8c05.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/625eb25a3f.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
+</body>
+</html>
