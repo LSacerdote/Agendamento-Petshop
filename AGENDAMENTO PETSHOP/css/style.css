@@ -82,8 +82,12 @@ border-bottom: solid #0359ca;
     border-top: 1px solid #4b99ff;
     
 }
+.img-card {
+    margin: 25px;
+}
 .img-card a{
     cursor: pointer;
+
 }
 
 .display-4 {
