@@ -84,6 +84,7 @@ border-bottom: solid #0359ca;
 }
 .img-card {
     margin: 25px;
+
 }
 .img-card a{
     cursor: pointer;
@@ -93,7 +94,7 @@ border-bottom: solid #0359ca;
 .display-4 {
     background-color: #0359ca;
     border-top: 1px solid #0f5fc9; 
-    border-bottom: 1px solid #0f5fc9; 
+
     text-align: center;
     color: white;
     font-size: 12px;
@@ -135,11 +136,45 @@ border-bottom: solid #0359ca;
      color: black;
      position: relative;
      border-top: 1px solid #8aaaff
+     
 
 
 }
 
+.card-planos {
+    background-color: #FADA17;
+    height: 500px;
+    width: 230px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-right: 60px ;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 15px;
+    
+}
 
+#planos {
+    background-color: #0359ca;
+     color: black;
+     position: relative;
+    
+
+
+}
+.title-card{
+    color: #0051ff;
+    box-shadow: #00000048 1px ;
+    margin-top: 5px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+    
+.price-card{
+    color: rgb(0, 0, 0);
+}
 
 
 
@@ -170,3 +205,11 @@ border-bottom: solid #0359ca;
       .none {
           display: block;
       } }
+
+       @media screen and (max-width:675px) {
+        .card-planos {
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+           
+        } }
