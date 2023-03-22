@@ -147,7 +147,6 @@ border-bottom: solid #0359ca;
     box-shadow: #ffffffa4 2px 2px 2px 2px;
     width: 230px;
     display: inline-block;
-  
     justify-content: center;
     align-items: center;
     margin: 20px;
@@ -155,14 +154,13 @@ border-bottom: solid #0359ca;
     border-radius: 10px;
     margin-top: 90px;
     margin-left: 15px;
-    margin-bottom: 70px;
-
+    
     
 }
 
 
 #planos {
-    background-color: #0359ca;
+    background-color: #3f92ff;
      color: black;
      position: relative;
     
