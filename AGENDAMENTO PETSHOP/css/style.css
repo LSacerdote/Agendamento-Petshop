@@ -78,7 +78,7 @@ border-bottom: solid #0359ca;
     
 }
 #serviços {
-   background-color: #0359ca;
+    background-color:  #0359ca;
     color: black;
     position: relative;
     border-top: 1px solid #4b99ff;
@@ -133,7 +133,7 @@ border-bottom: solid #0359ca;
 }
 
 #pacotes {
-    background-image: linear-gradient(to top right,#0359ca,#156bdd);
+   
      color: black;
      position: relative;
      border-top: 1px solid #8aaaff
@@ -151,19 +151,19 @@ border-bottom: solid #0359ca;
     justify-content: center;
     align-items: center;
     margin: 20px;
-    margin-right: 60px ;
+    margin-right: 45px ;
     border-radius: 10px;
     margin-top: 40px;
-    margin-left: 15px;
+    margin-left: 27px;
     opacity: 0.3 0.7 0.3 0.7;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     
     
 }
 
 
 #planos {
-    background-image: linear-gradient(180deg,#0359ca,#156bdd);
+    background-image: linear-gradient(180deg,#0359ca,#2875da);
      color: black;
      position: relative;
     
@@ -171,7 +171,7 @@ border-bottom: solid #0359ca;
 
 }
 .title-card{
-    color: #0051ff;
+    
     box-shadow: #00000048 1px ;
   border-radius: 10px;
 
