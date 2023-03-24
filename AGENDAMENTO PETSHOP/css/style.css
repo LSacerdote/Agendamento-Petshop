@@ -13,6 +13,7 @@ border-bottom: solid #0359ca;
 .navbar-nav a{
     color: white;
     font-size: 18px;
+    opacity: 0.9;
 }
 .navbar-nav a:hover{
     color: #FADA17;
@@ -53,6 +54,7 @@ border-bottom: solid #0359ca;
     touch-action: manipulation;
     width: fit-content;
     
+    
     }
     
     .btn-b:hover{
@@ -92,9 +94,8 @@ border-bottom: solid #0359ca;
 }
 
 .display-4 {
-    background-color: #0359ca;
-    border-top: 1px solid #0f5fc9; 
 
+    border-top: 1px solid #0f5fc9;
     text-align: center;
     color: white;
     font-size: 12px;
@@ -118,10 +119,10 @@ border-bottom: solid #0359ca;
     box-shadow: #f5f9ff48 1px 1px 1px 1px;
     width: 280px;
     margin-bottom: 85px;
+    
 
 }
 .display-5 {
-    background-color: #0359ca;
     border-top: 1px solid #0f5fc9; 
     border-bottom: 1px solid #0f5fc9; 
     text-align: center;
@@ -132,7 +133,7 @@ border-bottom: solid #0359ca;
 }
 
 #pacotes {
-    background-color: #0359ca;
+    background-image: linear-gradient(to top right,#0359ca,#156bdd);
      color: black;
      position: relative;
      border-top: 1px solid #8aaaff
@@ -144,7 +145,7 @@ border-bottom: solid #0359ca;
 .card-planos {
     background-color: #FADA17;
     height: 500px;
-    box-shadow: #ffffffa4 2px 2px 2px 2px;
+    box-shadow: #ffffff4f 2px 2px 2px 2px;
     width: 230px;
     display: inline-block;
     justify-content: center;
@@ -152,15 +153,17 @@ border-bottom: solid #0359ca;
     margin: 20px;
     margin-right: 60px ;
     border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 40px;
     margin-left: 15px;
+    opacity: 0.3 0.7 0.3 0.7;
+    margin-bottom: 50px;
     
     
 }
 
 
 #planos {
-    background-color: #0359ca;
+    background-image: linear-gradient(180deg,#0359ca,#156bdd);
      color: black;
      position: relative;
     
@@ -170,8 +173,8 @@ border-bottom: solid #0359ca;
 .title-card{
     color: #0051ff;
     box-shadow: #00000048 1px ;
-    margin-top: 5px;
-    font-size: 35px;
+  border-radius: 10px;
+
 
 }
     
@@ -243,7 +246,7 @@ border-bottom: solid #0359ca;
   }
   .copyright a{
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    
     cursor: pointer;
     opacity: 50.0;
   }
