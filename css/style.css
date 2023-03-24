@@ -261,19 +261,7 @@ border-bottom: solid #0359ca;
             width: 200px;
            
         } }
-        @media screen and (max-width:675px) {
-            .title-card  {
-                
-                width: 185px;
-                    height: 320px;
-                
-            } }
-            @media screen and (max-width:675px) {
-               .card-planos {
-             
-                    width: 185px;
-                    height: 320px;
-                } }
+      
 @media screen and (max-width:675px) {
     .btn-b {
         display: none;
