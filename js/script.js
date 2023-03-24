@@ -18,7 +18,7 @@ function gotowhatsapp() {
       + "Telefone: " + telefone + "%0a"
       + "Serviço: " + service + "%0a"
       + "Porte do Animal: " + porte + "%0a"
-      + "Adicionais: " + desembolo + corte + hidratação + tratamento + tonalização + limpeza  + "%0a"
+      + "Adicionais: " + desembolo +"%0a"
       + "Endereço: " + taxidog + "%0a"
 
     window.open(url, '_blank').focus();
