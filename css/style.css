@@ -177,6 +177,9 @@ border-bottom: solid #0359ca;
 
 
 }
+.title-card:hover{
+    cursor: pointer;
+}
     
 
 
