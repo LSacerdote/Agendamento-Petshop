@@ -58,7 +58,7 @@ border-bottom: solid #0359ca;
     }
     
     .btn-b:hover{
-        color: rgb(255, 255, 255);
+        color: hsl(236, 87%, 54%);
         border: 1px solid white;
         transition: 2ms;
     }
