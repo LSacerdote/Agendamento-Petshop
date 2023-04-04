@@ -2,7 +2,7 @@
 
 
 # Projeto de Agendamento de Banho e Tosa
-Este é um projeto de software para agendamento de banho e tosa em um pet shop ou clínica veterinária. Com este sistema, os clientes podem agendar o banho e tosa de seus animais de estimação com facilidade, e a equipe do pet shop pode gerenciar os agendamentos de forma eficiente.
+Este é um projeto de site para agendamento de banho e tosa em um pet shop ou clínica veterinária. Com este sistema, os clientes podem agendar o banho e tosa de seus animais de estimação com facilidade, e a equipe do pet shop pode gerenciar os agendamentos de forma eficiente.
 
 
 # Versão Desktop
