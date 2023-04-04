@@ -1,14 +1,15 @@
 ![Agendamento](https://user-images.githubusercontent.com/107942374/228032672-0acc2649-f4ba-4ced-9b99-57aabc0de87a.png)
 
 
-Esse projeto é uma ladding page criada para facilitar o agendamento de cachorros para o banho e tosa, facilitando para o cliente e para o dono do banho e tosa.
+# Projeto de Agendamento de Banho e Tosa
+Este é um projeto de software para agendamento de banho e tosa em um pet shop ou clínica veterinária. Com este sistema, os clientes podem agendar o banho e tosa de seus animais de estimação com facilidade, e a equipe do pet shop pode gerenciar os agendamentos de forma eficiente.
 
 
-
+# Versão Desktop
 ![1](https://user-images.githubusercontent.com/107942374/228034468-a239325d-66b1-40d3-be01-68a4abd15c77.png)
 
 
-![3,4](https://user-images.githubusercontent.com/107942374/228033296-fb8882e1-30d9-48d0-8e94-577c13fd72c4.png)
+
 
 
 
