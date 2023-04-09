@@ -283,3 +283,12 @@ border-bottom: solid #0359ca;
       
            
         } }
+
+        @media screen and (max-width:1785px) {
+            .planos {
+                justify-content: center;
+                align-items: center;
+                margin: 40px;
+          
+               
+            } }
