@@ -1,12 +1,16 @@
-![Agendamento](https://user-images.githubusercontent.com/107942374/228032672-0acc2649-f4ba-4ced-9b99-57aabc0de87a.png)
+<p align="center">
+  <img src="img/1234.png">
+</p>
 
-
-# Projeto de Agendamento de Banho e Tosa
+<h1 align="center"> Projeto de Agendamento de Banho e Tosa</h1>
 Este é um projeto de site para agendamento de banho e tosa em um pet shop ou clínica veterinária. Com este sistema, os clientes podem agendar o banho e tosa de seus animais de estimação com facilidade, e a equipe do pet shop pode gerenciar os agendamentos de forma eficiente.
 
 
-# Versão Desktop
-![1](https://user-images.githubusercontent.com/107942374/228034468-a239325d-66b1-40d3-be01-68a4abd15c77.png)
+<h1 align="center"> Versão Desktop </h1>
+
+<p align="center">
+  <img src="img/4.png">
+</p>
 
 
 
@@ -14,27 +18,33 @@ Este é um projeto de site para agendamento de banho e tosa em um pet shop ou cl
 
 
 
+<h1 align="center"> Versão Mobile </h1>
+<p align="center">
+  <img src="img/5.png">
+</p>
 
 
-# Versão Mobile
-![4](https://user-images.githubusercontent.com/107942374/228033710-5d8f52ac-e5cd-4c29-ad27-71d527e2d767.png)
-
-# Tecnologias Usadas
+<h1 align="center"> Tecnologias Usadas </h1>
+<p align="center">
 HTML
-
+</p>
+<p align="center">
 CSS
-
+</p>
+<p align="center">
 Javascript
-
+</p>
+<p align="center">
 Bootstrap
+</p>
  
 
 
-# Abra no seu navegador clicando no link  ↓
-https://agendamentopet.netlify.app/
+<h1 align="center"> Abra no seu navegador clicando no link  ↓ </h1>
+<p align="center">https://agendamentopet.netlify.app/</p>
 
 
-# Usando GIT, Copie o repositório com o comando:
-git clone https://github.com/LSacerdote/Agendamento-Petshop.git
-Abra index.html com o seu browser para ver o resultado.
+<h1 align="center"> Usando GIT, Copie o repositório com o comando: </h1>
+<p align="center">git clone https://github.com/LSacerdote/Agendamento-Petshop.git</p>
+<p align="center">Abra index.html com o seu browser para ver o resultado.</p>
              
